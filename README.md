@@ -1,4 +1,4 @@
-handyslider
+Handy Slider
 ===========
 
-Plugin jQuery to create great sliders easily
+Plugin jQuery to create great sliders easily.
