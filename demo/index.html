@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title>Handy Slider</title>
+
+	<link rel="stylesheet" href="./css/main.css" type="text/css" media="screen" />
+
+	<script type="text/javascript" src="./js/min/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="./js/jquery.handyslider.js"></script>
+
+	<script>
+		$(function () {
+			var params = {
+				enablePlayPause : true,
+				onPlay : function () {$("#playButton").text("Pause");},
+				onPause : function () {$("#playButton").text("Play");}
+			};
+
+			$('#slider').slider(params);
+		});
+	</script>
+
+</head>
+<body>
+	<div id="slider-content" class="container">
+		<div id="prevButton">
+			<div class="icon-lightarrowleft"></div>
+		</div>
+		<div id="slider">
+			<div class="slide">
+		      <img src="./img/photo-1.jpg" />
+		    </div>
+		    <div class="slide">
+		      <img src="./img/photo-2.jpg" />
+		    </div>
+		    <div class="slide">
+		      <img src="./img/photo-3.jpg" />
+		    </div>
+		    <div class="slide">
+		      <img src="./img/photo-4.jpg" />
+		    </div>
+			<div class="floatc" id="playButton-content">
+				<button id="playButton">Pause</button>
+			</div>
+		</div>
+		<div id="nextButton">
+			<div class="icon-lightarrowright"></div>
+		</div>
+	</div>
+</body>
+</html>
