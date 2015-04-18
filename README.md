@@ -1,7 +1,12 @@
+/!\ WARNING /!\
+===============
+
+This plugin is deprecated. You can easily found faster and better maintained plugins to create slideshows.
+
 Handy Slider
 ===========
 
-Plugin jQuery to create great slideshows easily.
+Plugin jQuery to create slideshows easily.
 
 Requirements
 ============
