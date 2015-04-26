@@ -8,6 +8,8 @@ Handy Slider
 
 Plugin jQuery to create slideshows easily.
 
+Demo : http://winckell.com/handyslider/demo/
+
 Requirements
 ============
 
